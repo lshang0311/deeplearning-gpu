@@ -15,4 +15,6 @@ Ref:
  * CUDNN 9.0 windows10 x64 v7.1
 
 Result of GPU vs CPU: 
+
+
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
