@@ -1,7 +1,12 @@
-import matplotlib
+import time
+
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import time
+
+"""
+http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html
+
+"""
 
 
 def get_times(maximum_time):
