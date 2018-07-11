@@ -3,7 +3,10 @@
 
 Ref:
 ====
-     http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html
+[Run Tensorflow on NVidia GeForce MX150 graphics card](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
+
+Setup
+======
      
  * Windows 10
  * GPU: GeForce MX150
@@ -27,6 +30,8 @@ Result from mnist_cnn.py
 * About 17 seconds per epoch on a GeForce MX150 GPU
 * About 70 seconds per epoch on a i7-8550U CPU
 
+Script output
+-------------
 Using TensorFlow backend.
 
 x_train shape: (60000, 28, 28, 1)
