@@ -1,10 +1,5 @@
 # GPU-accelerated Deep Learning
 
-
-Ref:
-====
-[Run Tensorflow on NVidia GeForce MX150 graphics card](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
-
 Setup
 ======
      
@@ -18,10 +13,8 @@ Setup
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
 
-GPU vs CPU 
+GPU vs CPU from Running [test_tf_mx150.py](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
 =============
-see **test_tf_mx150.py**: 
-
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 
 
