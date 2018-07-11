@@ -14,4 +14,4 @@ Ref:
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
  
- ![](file:///D:\work.github\deeplearning-gpu\gpu_vs_cpu.png)
+ ![](file:///D:/work.github/deeplearning-gpu/gpu_vs_cpu.png)
