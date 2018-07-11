@@ -2,6 +2,7 @@
 
 
 Ref:
+====
      http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html
      
  * Windows 10
@@ -14,13 +15,15 @@ Ref:
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
 
-Result of GPU vs CPU from script **test_tf_mx150.py**: 
-
+GPU vs CPU 
+=============
+see **test_tf_mx150.py**: 
 
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 
 
-Result of GPU from script **mnist_cnn.py**:
+Result from mnist_cnn.py 
+========================
 * About 17 seconds per epoch on a GeForce MX150 GPU
 * About 70 seconds per epoch on a i7-8550U CPU
 
