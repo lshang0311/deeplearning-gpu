@@ -13,5 +13,6 @@ Ref:
  * tf-nightly-gpu 1.10.0a20180710
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
- 
- ![](file:///D:/work.github/deeplearning-gpu/gpu_vs_cpu.png)
+
+Result of GPU vs CPU: 
+![](file:///D:/work.github/deeplearning-gpu/gpu_vs_cpu.png)
