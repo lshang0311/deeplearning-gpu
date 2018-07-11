@@ -1,4 +1,4 @@
-# deeplearning-gpu
+# GPU-accelerated Deep Learning
 
 
 Ref:
@@ -9,7 +9,7 @@ Setup
 ======
      
  * Windows 10
- * GPU: GeForce MX150
+ * GPU: **GeForce MX150**
  * CPU: Intel i7-8550U
  * Python 3.6
  * tensorflow 1.9.0
@@ -25,10 +25,10 @@ see **test_tf_mx150.py**:
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 
 
-Result from mnist_cnn.py 
+Result from Running [mnist_cnn.py](https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py) 
 ========================
-* About 17 seconds per epoch on a GeForce MX150 GPU
-* About 70 seconds per epoch on a i7-8550U CPU
+* About **17** seconds per epoch on a GeForce MX150 GPU
+* About **70** seconds per epoch on a i7-8550U CPU
 
 Script output
 -------------
