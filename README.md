@@ -14,7 +14,7 @@ Ref:
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
 
-Result of GPU vs CPU: 
+Result of GPU vs CPU from script **test_tf_mx150.py**: 
 
 
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
