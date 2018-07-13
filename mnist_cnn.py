@@ -1,10 +1,3 @@
-'''Trains a simple convnet on the MNIST dataset.
-
-Gets to 99.25% test accuracy after 12 epochs
-(there is still a lot of margin for parameter tuning).
-16 seconds per epoch on a GRID K520 GPU.
-'''
-
 from __future__ import print_function
 import keras
 from keras.datasets import mnist
@@ -14,11 +7,21 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 
 """
-https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py
+Test Script:
+    https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py
 
-17 seconds per epoch on a GeForce MX150 GPU
-70 seconds per epoch on a Intel i7-8550U CPU
+Hardware: 
+    CPU: Intel i7-8550U
+    RAM: 32.0 GB
+    GPU: GeForece MX150 
 
+Result Summary:  
+    17 seconds per epoch on GeForce MX150 GPU
+    70 seconds per epoch on Intel i7-8550U CPU
+    
+    Also tested on HP ZBook 14 G2 (i7-5600U, 16.0 GB):
+       200 seconds per epoch
+    
 """
 
 batch_size = 128
