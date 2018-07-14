@@ -20,6 +20,7 @@ Result Summary
 |:------: |:---: |:---: |
 | [convnet on the MNIST dataset](https://github.com/lshang0311/deeplearning-gpu/blob/master/mnist_cnn.py)  | 70 seconds per epoch  | 17 seconds per epoch  |
 | [word2vec](https://github.com/lshang0311/deeplearning-gpu/blob/master/word2vec_basic.py)  | 556 seconds (step 5, training)  | 326 seconds (step 5, training)|
+| [classify movie reviews](https://github.com/lshang0311/deeplearning-gpu/blob/master/classify_movie_reviews.py)  | < 1 second  | < 1 second|
 
 
 GPU vs CPU from Running [test_tf_mx150.py](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
