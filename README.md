@@ -22,6 +22,34 @@ print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 ```
+
+Output:
+```
+TensorFlow Version: 1.10.0-dev20180709
+2018-07-14 12:47:58.574956: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-07-14 12:47:59.277821: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1404] Found device 0 with properties: 
+name: GeForce MX150 major: 6 minor: 1 memoryClockRate(GHz): 1.5315
+pciBusID: 0000:01:00.0
+totalMemory: 2.00GiB freeMemory: 1.62GiB
+2018-07-14 12:47:59.278186: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1483] Adding visible gpu devices: 0
+2018-07-14 12:48:00.036958: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:964] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-07-14 12:48:00.037172: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:970]      0 
+2018-07-14 12:48:00.037318: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:983] 0:   N 
+2018-07-14 12:48:00.037557: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1096] Created TensorFlow device (/device:GPU:0 with 1379 MB memory) -> physical GPU (device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-07-14 12:48:00.038499: E T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:228] Illegal GPUOptions.experimental.num_dev_to_dev_copy_streams=0 set to 1 instead.
+Default GPU Device: /device:GPU:0
+2018-07-14 12:48:00.111845: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1483] Adding visible gpu devices: 0
+2018-07-14 12:48:00.112102: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:964] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-07-14 12:48:00.112329: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:970]      0 
+2018-07-14 12:48:00.112458: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:983] 0:   N 
+2018-07-14 12:48:00.112640: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1096] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1379 MB memory) -> physical GPU (device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Device mapping:
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1
+2018-07-14 12:48:00.115856: I T:\src\github\tensorflow\tensorflow\core\common_runtime\direct_session.cc:288] Device mapping:
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1
+
+```
+
  
 Result Summary
 ==============
