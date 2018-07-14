@@ -5,12 +5,13 @@ Setup
  * Windows 10
  * GPU: **GeForce MX150**
  * CPU: Intel i7-8550U
+ * RAM: 32.0 GB
  * Python 3.6
  * tensorflow 1.9.0
  * tensorflow-gpu 1.9.0
  * tf-nightly-gpu 1.10.0a20180710
  * CUDA v9.0
- * CUDNN 9.0 windows10 x64 v7.1
+ * cuDNN 9.0 windows10 x64 v7.1
  
 Check TensorFlow is running on GPU:
 ```
@@ -55,7 +56,8 @@ Result Summary
 |:------: |:---: |:---: |
 | [convnet on the MNIST dataset](https://github.com/lshang0311/deeplearning-gpu/blob/master/mnist_cnn.py)  | 70 seconds per epoch  | 17 seconds per epoch  |
 | [word2vec](https://github.com/lshang0311/deeplearning-gpu/blob/master/word2vec_basic.py)  | 556 seconds (step 5, training)  | 326 seconds (step 5, training)|
-| [classify movie reviews](https://github.com/lshang0311/deeplearning-gpu/blob/master/classify_movie_reviews.py)  | < 1 second  | < 1 second|
+| [classify movie reviews](https://github.com/lshang0311/deeplearning-gpu/blob/master/classify_movie_reviews.py)  | < 1 second per epoch  | < 1 second per epoch |
+| [cifar10_cnn](https://github.com/keras-team/keras/blob/master/examples/cifar10_cnn.py)  | 135 seconds per epoch | 31 seconds per epoch |
 
 
 GPU vs CPU from Running [test_tf_mx150.py](https://github.com/lshang0311/deeplearning-gpu/blob/master/test_tf_mx150.py)
