@@ -61,7 +61,7 @@ Result Summary
 | [classify movie reviews](https://github.com/lshang0311/deeplearning-gpu/blob/master/classify_movie_reviews.py)  | < 1 second  | < 1 second|
 
 
-GPU vs CPU from Running [test_tf_mx150.py](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
+GPU vs CPU from Running [test_tf_mx150.py](https://github.com/lshang0311/deeplearning-gpu/blob/master/test_tf_mx150.py)
 ---------------------
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 

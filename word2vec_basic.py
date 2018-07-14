@@ -38,6 +38,9 @@ from tensorflow.contrib.tensorboard.plugins import projector
 """
 Example:
   https://github.com/tensorflow/tensorflow/blob/r1.9/tensorflow/examples/tutorials/word2vec/word2vec_basic.py
+  
+  Using GPU on AWS:
+    https://towardsdatascience.com/how-to-train-custom-word-embeddings-using-gpu-on-aws-f62727a1e3f6
 
 """
 
