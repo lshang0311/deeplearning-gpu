@@ -13,6 +13,16 @@ Setup
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
  
+Check TensorFlow is running on GPU:
+```
+import tensorflow as tf
+print('TensorFlow Version: {}'.format(tf.__version__))
+print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
+
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+
+```
+ 
 Result Summary
 ==============
 
@@ -28,13 +38,8 @@ GPU vs CPU from Running [test_tf_mx150.py](http://vjethava.blogspot.com/2017/11/
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 
 
-Result from Running [mnist_cnn.py](https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py) 
+Script output from Running [mnist_cnn.py](https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py) 
 ---------------------
-* About **17** seconds per epoch on a GeForce MX150 GPU
-* About **70** seconds per epoch on a i7-8550U CPU
-
-Script output
--
 Using TensorFlow backend.
 
 x_train shape: (60000, 28, 28, 1)
