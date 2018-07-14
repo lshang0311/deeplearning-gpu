@@ -12,19 +12,28 @@ Setup
  * tf-nightly-gpu 1.10.0a20180710
  * CUDA v9.0
  * CUDNN 9.0 windows10 x64 v7.1
+ 
+Result Summary
+==============
+
+| Example | CPU  | GPU  | 
+|:------: |:---: |:---: |
+| [convnet on the MNIST dataset](https://github.com/lshang0311/deeplearning-gpu/blob/master/mnist_cnn.py)  | 70 seconds per epoch  | 17 seconds per epoch  |
+| [word2vec](https://github.com/lshang0311/deeplearning-gpu/blob/master/word2vec_basic.py)  | 556 seconds (step 5, training)  | 326 seconds (step 5, training)|
+
 
 GPU vs CPU from Running [test_tf_mx150.py](http://vjethava.blogspot.com/2017/11/tensorflow-on-mx150.html)
-=============
+---------------------
 ![gpu image](gpu_vs_cpu.png "GPU vs CPU")
 
 
 Result from Running [mnist_cnn.py](https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py) 
-========================
+---------------------
 * About **17** seconds per epoch on a GeForce MX150 GPU
 * About **70** seconds per epoch on a i7-8550U CPU
 
 Script output
--------------
+-
 Using TensorFlow backend.
 
 x_train shape: (60000, 28, 28, 1)
