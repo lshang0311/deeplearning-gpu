@@ -2,7 +2,6 @@
 
 Setup
 ======
-     
  * Windows 10
  * GPU: **GeForce MX150**
  * CPU: Intel i7-8550U
@@ -20,7 +19,6 @@ print('TensorFlow Version: {}'.format(tf.__version__))
 print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
 
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
-
 ```
 
 Output:
@@ -47,7 +45,6 @@ Device mapping:
 /job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1
 2018-07-14 12:48:00.115856: I T:\src\github\tensorflow\tensorflow\core\common_runtime\direct_session.cc:288] Device mapping:
 /job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce MX150, pci bus id: 0000:01:00.0, compute capability: 6.1
-
 ```
 
  
@@ -68,6 +65,7 @@ GPU vs CPU from Running [test_tf_mx150.py](https://github.com/lshang0311/deeplea
 
 Script output from Running [mnist_cnn.py](https://github.com/philferriere/dlwin/blob/master/mnist_cnn.py) 
 ---------------------
+```
 Using TensorFlow backend.
 
 x_train shape: (60000, 28, 28, 1)
@@ -127,3 +125,4 @@ Epoch 12/12
 
 Test loss: 0.026977146334353164
 Test accuracy: 0.9916
+```
